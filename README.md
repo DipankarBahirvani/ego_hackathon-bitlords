@@ -6,7 +6,9 @@
 * Grafana  (https://grafana.com/docs/installation/)
 * InfluxDB (https://docs.influxdata.com/influxdb/v1.7/introduction/installation/)
 * Nifi  (https://nifi.apache.org/docs/nifi-docs/html/getting-started.html)
-* Kafka 
+* Kafka (https://kafka.apache.org/)
+* RStudio
+ 
 
 ### Start  the services 
 * `sudo service grafana-service start`
@@ -21,7 +23,7 @@
 * http://localhost:8080/nifi
 
 
-##Install python modules 
+## Install python modules 
 * pip install requirements.txt
 * python hackathon/code_base/python_scripts/get_signals.py &
 * python hackathon/code_base/python_scripts/kafka_producer.py &
